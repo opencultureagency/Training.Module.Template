@@ -5,15 +5,14 @@ training-module:
         github-profile:
         mail:
         telegram:
-    releases:
-        - v.1.0
+    release: v.1.0
     duration: HH:MM
-    max-participians: X persons
+    max-participians: X
     compatibility: ASKotec2.0 or newer
     blog-posts: https://url-to-blog-posts
     issues: https://url-to-issue-list
     new-issue: https://url-to-new-issue
-    licence:
+    license:
         name: CC-BY-SA-4.0
         file: LICENSE.md
     manual: Manual.md
