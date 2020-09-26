@@ -1,8 +1,9 @@
 # ASKotec.Training-Module
 
-| Name of the Training-Module | v.1.0            |
+| Name of the Training-Module |                  |
 | ----------------- | -------------------------- |
 | Contact person    | [Name of the contact person](https://github.com/opencultureagency) |
+| Release           | [v.1.0](https://github.com/opencultureagency/ASKotec.Training-Modules.Template/releases/) ([View all Releases](https://github.com/opencultureagency/ASKotec.Training-Modules.Template/releases/))|
 | Duration          | XX hours XX minutes        |
 | Max. Participians | X Persons                  |
 | Issues            | [Create new](https://github.com/opencultureagency/ASKotec.Training-Modules.Template/issues/new)|
@@ -10,7 +11,6 @@
 | Blog              | [View all Blog Posts](https://askotec.openculture.agency/category/training-modules/)|
 | Stockroom         | [Order Tools and Materials](https://askotec.openculture.agency/product-category/training-modules/)|
 | Licence           | [CC-BY-SA-4.0](LICENSE.md)|
-| Release           | [v.1.0](https://github.com/opencultureagency/ASKotec.Training-Modules.Template/releases/) ([View all Releases](https://github.com/opencultureagency/ASKotec.Training-Modules.Template/releases/))|
 
 ### Manuals
 * [Open Hardware Guide](https://askotec.openculture.agency/product/open-hardware-guide/)
