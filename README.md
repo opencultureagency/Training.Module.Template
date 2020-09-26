@@ -1,0 +1,1 @@
+# ASKotec.Training-Modules.Template
