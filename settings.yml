@@ -1,0 +1,37 @@
+version: '1.0'
+
+training-module:
+    author: Name of the author
+        github-profile:
+        mail:
+        telegram:
+    releases:
+        - v.1.0
+    duration: HH:MM
+    max-participians: X persons
+    compatibility: ASKotec2.0 or newer
+    blog-posts: https://url-to-blog-posts
+    issues: https://url-to-issue-list
+    new-issue: https://url-to-new-issue
+    licence:
+        name: CC-BY-SA-4.0
+        file: LICENSE.md
+    manual: Manual.md
+    tools:
+        product:
+            name: Name of the product
+            stockroom: https://url-to-product
+            quantity: 1
+        product:
+            name: Name of the product
+            stockroom: https://url-to-product
+            quantity: 1
+    materials:
+        product:
+            name: Name of the product
+            stockroom: https://url-to-product
+            quantity: 1
+        product:
+            name: Name of the product
+            stockroom: https://url-to-product
+            quantity: 1
