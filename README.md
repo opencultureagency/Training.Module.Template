@@ -5,11 +5,11 @@
 | Contact person    | Bastian                 |
 | Duration          | 2 hours 20 minutes      |
 | Max. Participians | 6 Persons               |
-| Issues            | [Create new](issues/new)|
+| Issues            | [Create new](/issues/new)|
 | Compatible        | ASKotec2.0              |
 | Blog              | [View all Blog Posts](https://askotec.openculture.agency/category/training-modules/)|
 | Stockroom         | [View all Tools and Materials](https://askotec.openculture.agency/product-category/training-modules/)|
-| Licence           | [CC-BY-SA-4.0](blob/master/LICENSE.md)|
+| Licence           | [CC-BY-SA-4.0](LICENSE.md)|
 
 ### Manuals
 * [Open Hardware Guide](https://askotec.openculture.agency/product/open-hardware-guide/)
