@@ -7,14 +7,20 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
+  jekyll:
+    runs-on: ubuntu-16.04
     steps:
-      - name: 🛎 Check out master
-        uses: actions/checkout@master
-        with:
-          fetch-depth: 1
-      - name: 🧪 Build and deploy
-        uses: victoriadrake/jekyll-cd@master
+    - uses: actions/checkout@v2
+
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
+    # Standard usage
+    - uses:  helaili/jekyll-action@2.0.4
+      env:
+        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
