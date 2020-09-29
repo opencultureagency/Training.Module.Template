@@ -17,7 +17,7 @@ release: {{ mod.release }}
 tools:
 
 {% for tool in mod.tools %}
-* {{ tool.name }} (q: {{ tool.quantity }})
+* {{ tool.name }} (q: {{ tool.quantity }}) {% if tool.new-key %} - new-key is set and has value {{ tool.new-key }} {% endif %}
 {% endfor %}
 
 materials:
