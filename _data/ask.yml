@@ -1,10 +1,11 @@
 version: '1.0'
 
 training-module:
-    author: Name of the author
-        github-profile:
-        mail:
-        telegram:
+    authors:
+        - name: Name of the author
+          github-profile: werwe
+          mail: rwewer
+          telegram: rwrrrt wwe
     release: v.1.0
     duration: HH:MM
     max-participians: X
@@ -17,20 +18,16 @@ training-module:
         file: LICENSE.md
     manual: Manual.md
     tools:
-        product:
-            name: Name of the product
-            stockroom: https://url-to-product
-            quantity: 1
-        product:
-            name: Name of the product
-            stockroom: https://url-to-product
-            quantity: 1
+        - name: Name of the product
+          stockroom: https://url-to-product
+          quantity: 1
+        - name: Name of the product
+          stockroom: https://url-to-product
+          quantity: 1
     materials:
-        product:
-            name: Name of the product
-            stockroom: https://url-to-product
-            quantity: 1
-        product:
-            name: Name of the product
-            stockroom: https://url-to-product
-            quantity: 1
+        - name: Name of the product
+          stockroom: https://url-to-product
+          quantity: 1
+        - name: Name of the product
+          stockroom: https://url-to-product
+          quantity: 1
