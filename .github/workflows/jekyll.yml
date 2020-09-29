@@ -11,6 +11,19 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
     - uses: actions/checkout@v2
+    - run: |
+        for md in **.md
+        do
+          md_txt="${md}.txt"
+          {
+            echo "---"
+            echo "---"
+            echo "{% include_relative $md %}"
+          } > "$md_txt"
+          echo "Created file '$md_txt' with content:"
+          cat "$md_txt"
+          echo
+        done
 
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v1
