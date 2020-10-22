@@ -12,18 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-        for md in **.md
-        do
-          md_txt="${md}.txt"
-          {
-            echo "---"
-            echo "---"
-            echo "{% include_relative $md %}"
-          } > "$md_txt"
-          echo "Created file '$md_txt' with content:"
-          cat "$md_txt"
-          echo
-        done
+        pip install -r requirements.txt
+        scripts/pre-process
 
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v1

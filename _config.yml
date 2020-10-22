@@ -38,6 +38,13 @@ plugins:
     - jekyll-rdf
 #  - jekyll-feed
 
+jekyll_rdf:
+  baseiri: "http://myontology.com/"
+  path: "_data/ask-module.ttl"
+  default_template: "default.html"
+  class_template_mappings:
+    "http://myontology.com/Module": "module.html"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
