@@ -5,4 +5,6 @@
 layout: home
 ---
 
-[ASK-Module](ask-module)
+The [ASKotec-module meta-data file (ask-module.yml)](
+https://github.com/hoijui/ASKotec.Training-Modules.Template/blob/master/ask-module.yml)
+is also visualized in [a human friendly form](modules/MyBigFatTrainingModule.html).
