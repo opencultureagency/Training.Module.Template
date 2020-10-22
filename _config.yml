@@ -26,6 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/ASKotec.Training-Modules.Template" # the subpath of your site, e.g. /blog
 url: "https://hoijui.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repo_browse_url: "https://github.com/hoijui/ASKotec.Training-Modules.Template/"
+repo_raw_url: "https://raw.githubusercontent.com/hoijui/ASKotec.Training-Modules.Template/"
+git_ref: "master"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
