@@ -4,7 +4,7 @@ title: ASK Module
 permalink: /ask-module/
 ---
 
-# NOTE: This is deprecated! please see [modules](https://hoijui.github.io/ASKotec.Training-Modules.Template/modules/) instead!
+# NOTE: This is deprecated! please see [MyBigFatTrainingModule](https://hoijui.github.io/ASKotec.Training-Modules.Template/modules/MyBigFatTrainingModule.html) instead!
 
 {% assign mod = site.data.ask.training-module %}
 
