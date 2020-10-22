@@ -2,6 +2,11 @@
 
 pages: https://hoijui.github.io/ASKotec.Training-Modules.Template/
 
+The [ASKotec-module meta-data file (ask-module.yml)](ask-module.yml)
+is also visualized in [a human friendly form](
+https://hoijui.github.io/ASKotec.Training-Modules.Template/modules/MyBigFatTrainingModule.html),
+which basically replaces the following table.
+
 | Name of the Training-Module |                  |
 | ----------------- | -------------------------- |
 | Contact person    | [Name of the contact person](https://github.com/opencultureagency) |
