@@ -31,7 +31,8 @@ url: "https://hoijui.github.io" # the base hostname & protocol for your site, e.
 
 # Build settings
 theme: minima
-#plugins:
+plugins:
+    - jekyll-rdf
 #  - jekyll-feed
 
 # Exclude from processing.
