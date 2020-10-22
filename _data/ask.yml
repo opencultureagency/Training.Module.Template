@@ -1,6 +1,7 @@
 version: '1.0'
 
 training-module:
+    name: MyBigFatTrainingModule
     authors:
         - name: Name of the author
           github-profile: werwe
@@ -13,22 +14,22 @@ training-module:
     blog-posts: https://url-to-blog-posts
     issues: https://url-to-issue-list
     new-issue: https://url-to-new-issue
-    license:
-        name: CC-BY-SA-4.0
-        file: LICENSE.md
+    licenses:
+        - name: CC-BY-SA-4.0
+          file: LICENSE.md
     manual: Manual.md
     tools:
         - name: Name of the product
           stockroom: https://url-to-product
           quantity: 1
-        - name: Name of the product
-          stockroom: https://url-to-product
+        - name: Name of the other product
+          stockroom: https://url-to-other-product
           quantity: 1
           new-key: 3
     materials:
         - name: Name of the product
           stockroom: https://url-to-product
           quantity: 1
-        - name: Name of the product
-          stockroom: https://url-to-product
+        - name: Name of the other product
+          stockroom: https://url-to-other-product
           quantity: 1
