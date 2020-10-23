@@ -1,5 +1,5 @@
 # Ignore our auto-generated files
-/_data/ask-module*.yml
+/_data/module.yml
 /_data/*.ttl
 /_data/*.pref
 *.md.txt

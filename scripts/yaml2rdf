@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-Converts an ASKotec Module meta-data file (ask-module.yaml)
+Converts an ASKotec Module meta-data file (module.yaml)
 into an RDF/Turtle file.
 '''
 
@@ -116,13 +116,13 @@ def convert_module_yaml_to_rdf(yaml, pref_file=None):
 
 
 @click.command(context_settings=CONTEXT_SETTINGS)
-@click.argument('yaml_file', type=click.Path(), envvar='YAML_FILE', default='./ask-module.yml')
-@click.argument('rdf_file', type=click.Path(), envvar='RDF_FILE', default='./ask-module.ttl')
+@click.argument('yaml_file', type=click.Path(), envvar='YAML_FILE', default='./module.yml')
+@click.argument('rdf_file', type=click.Path(), envvar='RDF_FILE', default='./module.ttl')
 @click.argument('pref_file', type=click.Path(), envvar='PREF_FILE', default='./Prefixes.pref')
 @click.version_option("1.0")
-def convert_module(yaml_file='./ask-module.yml', rdf_file='./ask-module.ttl', pref_file='./Prefixes.pref'):
+def convert_module(yaml_file='./module.yml', rdf_file='./module.ttl', pref_file='./Prefixes.pref'):
     '''
-    Converts an ASKotec Module meta-data file (ask-module.yaml)
+    Converts an ASKotec Module meta-data file (module.yaml)
     into an RDF/Turtle file.
     '''
     in_s = open(yaml_file, 'r')

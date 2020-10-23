@@ -40,7 +40,7 @@ plugins:
 
 jekyll_rdf:
   baseiri: "http://myontology.com/"
-  path: "_data/ask-module.ttl"
+  path: "_data/module.ttl"
   default_template: "default.html"
   class_template_mappings:
     "http://myontology.com/Module": "module.html"

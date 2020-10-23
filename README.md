@@ -2,7 +2,7 @@
 
 pages: https://hoijui.github.io/ASKotec.Training-Modules.Template/
 
-The [ASKotec-module meta-data file (ask-module.yml)](ask-module.yml)
+The [ASKotec-module meta-data file (module.yml)](module.yml)
 is also visualized in [a human friendly form](
 https://hoijui.github.io/ASKotec.Training-Modules.Template/modules/MyBigFatTrainingModule.html),
 which basically replaces the following table.
