@@ -24,18 +24,6 @@ training-module:
         - name: CC-BY-SA-4.0
           file: LICENSE.md
     manual: Manual.md
-    tools:
-        - name: Name of the product
-          stockroom: https://url-to-product
-          quantity: 1
-        - name: Name of the other product
-          stockroom: https://url-to-other-product
-          quantity: 1
-          new-key: 3
-    materials:
-        - name: Name of the product
-          stockroom: https://url-to-product
-          quantity: 1
-        - name: Name of the other product
-          stockroom: https://url-to-other-product
-          quantity: 1
+    resources:
+        - url: "https://.../resource.yml"
+        - url: "https://...2/resource.yml"

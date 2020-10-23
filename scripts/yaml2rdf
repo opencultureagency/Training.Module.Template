@@ -102,15 +102,8 @@ def convert_module_yaml_to_rdf(yaml, pref_file=None):
         g.add(( a_s, SCHEMA.telegram, rdf_str(a['telegram']) ))
         g.add(( m_s, ASKM.author, a_s ))
 
-    for t in y['tools']:
-        t_s  = ASKM[str2id(t['name'])]
-        g.add(( t_s, RDF.type, ASK.Tool ))
-        g.add(( t_s, RDFS.label, rdf_str(t['name']) ))
-        g.add(( t_s, SCHEMA.stockroom, rdf_str(t['stockroom']) ))
-        g.add(( t_s, SCHEMA.quantity, rdf_int(t['quantity']) ))
-        if 'new-key' in t:
-            g.add(( t_s, SCHEMA.telegram, rdf_int(t['new-key']) ))
-        g.add(( m_s, ASKM.tool, t_s ))
+    for elem in y['resources']:
+        g.add(( m_s, ASKM.resource, rdf_str(elem['url']) ))
 
     for l in y['licenses']:
         l_s  = ASKM[str2id(l['name'])]
