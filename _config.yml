@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ASKotec Training-Modules Template
+title: (ASKotec) Training - Module Template
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   ASKotec test site. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/ASKotec.Training-Modules.Template" # the subpath of your site, e.g. /blog
-url: "https://hoijui.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repo_browse_url: "https://github.com/hoijui/ASKotec.Training-Modules.Template/"
-repo_raw_url: "https://raw.githubusercontent.com/hoijui/ASKotec.Training-Modules.Template/"
+baseurl: "/Training.Module.Template" # the subpath of your site, e.g. /blog
+url: "https://opencultureagency.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repo_browse_url: "https://github.com/opencultureagency/Training.Module.Template/"
+repo_raw_url: "https://raw.githubusercontent.com/opencultureagency/Training.Module.Template/"
 git_ref: "master"
 #twitter_username: jekyllrb
 #github_username:  jekyll
