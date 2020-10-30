@@ -26,9 +26,7 @@ do
 		echo "---"
 		echo "{% include_relative $md %}"
 	} > "$md_txt"
-	echo "Created file '$md_txt' with content:"
-	cat "$md_txt"
-	echo
+	echo "Created file '$md_txt', including '$md'."
 done
 
 # Copy meta-data file to jekylls data folder
