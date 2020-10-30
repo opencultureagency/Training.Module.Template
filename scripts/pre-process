@@ -38,4 +38,7 @@ cp module.yml _data/
 # Generate the RDF from the YAML
 cd _data
 "$script_dir/yaml2rdf"
+cp module.ttl ../
+cd ..
+echo "Created file 'module.ttl', a conversion of 'module.yml' into RDF."
 

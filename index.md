@@ -5,6 +5,7 @@
 layout: home
 ---
 
-The [ASKotec-module meta-data file (module.yml)](
-https://github.com/hoijui/ASKotec.Training-Modules.Template/blob/master/module.yml)
-is also visualized in [a human friendly form](modules/MyBigFatTrainingModule.html).
+The [(ASKotec) training module meta-data file (module.yml)](
+{{ site.repo_browse_url }}/blob/master/module.yml)
+is also visualized in [a human friendly form](modules/MyBigFatTrainingModule.html),
+and as RDF/Turtle in [module.ttl](module.ttl).
