@@ -1,12 +1,12 @@
 # This is a meta-data file for a training module,
 # as described here:
 # https://github.com/opencultureagency/Training.Module.Template/blob/main/README.md
-# The whole Training systme is described here:
+# The whole Training system is described here:
 # https://github.com/opencultureagency/Training.Template/blob/main/README.md
 
 version: '0.1.0'
 
-training-module:
+module:
     name: MyBigFatTrainingModule
     authors:
         - name: Name of the author

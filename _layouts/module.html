@@ -5,9 +5,9 @@ rdf_prefix_path: _data/Prefixes.pref
 
 <div class="module">
   <i>name:</i> {{page.rdf | rdf_property: "rdfs:label"}}<br/>
-  <i>manual:</i> {{page.rdf | rdf_property: "askm:manual"}}<br/>
+  <i>manual:</i> {{page.rdf | rdf_property: "ask:manual"}}<br/>
 
-  {% assign authors = page.rdf | rdf_property: "askm:author", nil, true %}
+  {% assign authors = page.rdf | rdf_property: "ask:author", nil, true %}
   <div class="authors">
   <h3>authors</h3>
   {% for author in authors %}

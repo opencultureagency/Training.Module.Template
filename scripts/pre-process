@@ -29,14 +29,22 @@ do
 	echo "Created file '$md_txt', including '$md'."
 done
 
-# Copy meta-data file to jekylls data folder
 mkdir -p _data
-cp module.yml _data/
 
 # Generate the RDF from the YAML
-cd _data
-"$script_dir/yaml2rdf"
-cp module.ttl ../
-cd ..
-echo "Created file 'module.ttl', a conversion of 'module.yml' into RDF."
-
+for part in training module resource
+do
+	if [ -f "./$part.yml" ]
+	then
+		# Copy meta-data file to jekylls data folder
+		cp "$part.yml" "./_data/"
+		# Generate the RDF from the YAML
+		"$script_dir/yaml2rdf" \
+			"_data/$part.yml" \
+			"_data/$part.ttl" \
+			"_data/Prefixes.pref"
+		# Copy the generated RDF/Turtle file back to the repo root,
+		# so it will be copied to the publish dir (e.g. _site)
+		cp "_data/$part.ttl" ./
+	fi
+done
