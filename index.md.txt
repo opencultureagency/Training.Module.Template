@@ -1,0 +1,5 @@
+The [(ASKotec) training module meta-data file (module.yml)](
+https://github.com/opencultureagency/Training.Module.Template//blob/master/module.yml)
+is also visualized in [a human friendly form](modules/MyBigFatTrainingModule.html),
+and as RDF/Turtle in [module.ttl](module.ttl).
+
