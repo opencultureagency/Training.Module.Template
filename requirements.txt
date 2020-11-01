@@ -3,3 +3,4 @@ click
 packaging
 pyyaml
 rdflib
+wget

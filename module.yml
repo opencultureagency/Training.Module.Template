@@ -25,5 +25,5 @@ module:
           file: LICENSE.md
     manual: Manual.md
     resources:
-        - url: "https://.../resource.yml"
-        - url: "https://...2/resource.yml"
+        - rdf-url: https://opencultureagency.github.io/Training.Module.Resource.Template/resource.ttl
+#        - yml-url: https://raw.githubusercontent.com/opencultureagency/Training.Module.Resource.Template/main/resource.yml
